@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:700|Raleway&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Cheat Sheet</title>
+  </head>
+  <body>
+
+    <h1>CSS Cheat Sheet</h1>
+
+    <div class="grid-container">
+
+      <div class="grid-item item1">
+        <h2>margin: auto</h2>
+        <p>centers element horizontally in container</p>
+      </div>
+
+      <div class="grid-item item2">
+        <h2>display: flex</h2>
+        <p>sets flexible length on flexible items</p>
+      </div>
+
+
+      <div class="grid-item item3">
+        <h2>flex-direction: row, row-reverse, column, column-reverse</h2>
+        <p>sets the orientation of flex items</p>
+      </div>
+
+
+      <div class="grid-item item4">
+        <h2>justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly</h2>
+        <p>aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally)</p>
+      </div>
+
+
+      <div class="grid-item item5">
+        <h2>align-items: flex-start, center, flex-end, baseline, stretch</h2>
+        <p>specifies the default alignment for items inside the flexible container on cross-axis (vertically)</p>
+      </div>
+
+
+      <div class="grid-item item6">
+        <h2>align-content: flex-start, center, flex-end, stretch, space-between, space-around, initial, inherit</h2>
+        <p>modifies the behavior of the flex-wrap property – aligns flex lines</p>
+      </div>
+
+
+      <div class="grid-item item7">
+        <h2>align-self: flex-start, center, flex-end, stretch, auto, baseline</h2>
+        <p>sets alignment for individual item, used to override align-items</p>
+      </div>
+  <!-- start below here!!!! -->
+
+      <div class="grid-item item8">
+        <h2>flex-grow: 1, 2, etc., initial, inherit</h2>
+        <p>specifies how much the item will grow relative to the rest of the flexible items inside the same container</p>
+      </div>
+
+
+      <div class="grid-item item9">
+        <h2>flex-shrink: 1, 2, etc., initial, inherit</h2>
+        <p>specifies how the item will shrink relative to the rest of the flexible items inside the same container</p>
+      </div>
+
+
+      <div class="grid-item item10">
+        <h2>flex-basis: 0, 10px, 20px, etc., auto, initial, inherit</h2>
+        <p>specifies the initial length of a flexible item</p>
+      </div>
+
+
+      <div class="grid-item item11">
+        <h2>order: 1, 2, etc., initial, inherit</h2>
+        <p>specifies the order of a flexible item relative to the rest of the flexible items inside the same container</p>
+      </div>
+
+
+      <div class="grid-item item12">
+        <h2>margin: length in px, pt, cm, etc., %, auto, initial, inherit</h2>
+        <p>sets the extra space around an element</p>
+      </div>
+
+
+      <div class="grid-item item13">
+        <h2>padding: length in px, pt, cm, etc., %, auto, initial, inherit</h2>
+        <p>sets the space in between its content and its border</p>
+      </div>
+
+
+      <div class="grid-item item14">
+        <h2>border: border-width, border-style, border-color</h2>
+        <p>shorthand CSS for setting a border between padding and margin of an element</p>
+      </div>
+
+
+      <div class="grid-item item15">
+        <h2>box-sizing: content-box, border-box, initial, inherit</h2>
+        <p>defines how the width and height of an element are calculated – if they added to the total width set or the content will only reach the total width and height given</p>
+      </div>
+
+
+      <div class="grid-item item16">
+        <h2>width: length in px, pt, cm, etc., %, auto, initial, inherit</h2>
+        <p>sets the width of an element</p>
+      </div>
+
+
+      <div class="grid-item item17">
+        <h2>min-width: length in px, pt, cm, etc., %, initial, inherit</h2>
+        <p>defines the minimum width of an element</p>
+      </div>
+
+
+      <div class="grid-item item18">
+        <h2>max-width: none, length in px, pt, cm, etc., %, initial, inherit</h2>
+        <p>defines the maximum width of an element – if content is larger than the maximum width, will automatically change the height of the element</p>
+      </div>
+
+
+      <div class="grid-item item19">
+        <h2>height: length in px, pt, cm, etc., %, auto, initial, inherit</h2>
+        <p>sets the height of an element – does not include padding, borders, or margins</p>
+      </div>
+
+
+      <div class="grid-item item20">
+        <h2>min-height: length in px, pt, cm, etc., %, initial, inherit</h2>
+        <p>defines the minimum height of an element</p>
+      </div>
+
+
+      <div class="grid-item item21">
+        <h2>max-height: none, length in px, pt, cm, etc., %, initial, inherit</h2>
+        <p>defines the maximum height of an element – if content is larger than the maximum height will overflow – how container will handle the overflowing content is defined by the overflow property</p>
+      </div>
+
+
+      <div class="grid-item item22">
+        <h2>absolute units: cm, mm, in, px, pt, pc</h2>
+        <p>units are fixed and a length expressed in any of these will appear as exactly that size – not recommended for screens</p>
+      </div>
+
+
+      <div class="grid-item item23">
+        <h2>relative units: em, ex, ch, rem, vw, vh, vmin, vmax, %</h2>
+        <p>specify a length relative to another length property – recommended for screens</p>
+      </div>
+
+
+      <div class="grid-item item24">
+        <h2>position: static, relative, absolute, fixed, sticky</h2>
+        <p>specifies the type of positioning method used for an element</p>
+      </div>
+
+
+      <div class="grid-item item25">
+        <h2>z-index: auto, 1, 2</h2>
+        <p>specifies the stack order of an element - an element with greater stack order is always in front of an element with a lower stack order. Only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky).</p>
+      </div>
+
+
+      <div class="grid-item item26">
+        <h2>display: grid, inline-grid </h2>
+        <p>sets the grid container, which consists of grid items, placed inside columns or rows</p>
+      </div>
+
+
+      <div class="grid-item item27">
+        <h2>grid item</h2>
+        <p>the child element of a grid container</p>
+      </div>
+
+
+      <div class="grid-item item28">
+        <h2>grid-column: 1 / 5, 1 / span 3, 1 / -1</h2>
+        <p>defines on which column/s to place an item</p>
+      </div>
+
+
+      <div class="grid-item item29">
+        <h2>grid-area: 1 / 2 / 5 / 6 , 2 / 1 / span 2 / span 3</h2>
+        <p>shorthand property for the grid-row-start, grid-column-start, grid-row-end and the grid-column-end properties</p>
+      </div>
+
+
+      <div class="grid-item item30">
+        <h2>grid-gap: 20px 50px;</h2>
+        <p>defines the size of the gap between the rows and columns in a grid layout, and is a shorthand property for grid-row-gap and grid-column-gap</p>
+      </div>
+
+
+      <div class="grid-item item31">
+        <h2>autofit</h2>
+        <p>fits the currently available columns into the space by expanding them so that they take up any available space</p>
+      </div>
+
+
+      <div class="grid-item item32">
+        <h2>autofill</h2>
+        <p>fills the row with as many columns as it can fit</p>
+      </div>
+
+
+      <div class="grid-item item33">
+        <h2>minmax(200px, 1fr), (400px, 50%),  (30%, 300px)</h2>
+        <p>sets a size range greater than or equal to min and less than or equal to max</p>
+      </div>
+
+
+      <div class="grid-item item34">
+        <h2>repeat(4, 1fr),  (4, 250px),  (4, 10px 30% 400px)</h2>
+        <p>repeat columns as many times as indicated by 1st value</p>
+      </div>
+
+
+      <div class="grid-item item35">
+        <h2>1fr</h2>
+        <p>a fractional unit - 1 part of the available space</p>
+      </div>
+
+
+    </div>
+
+
+
+
+
+  </body>
+</html>
